@@ -1,0 +1,236 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+    /*Sección Menu*/
+
+.menu {
+    display: flex;
+    width: 1136px;
+    margin: 32px auto;
+    align-items: center;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.menu__list__item {
+    margin-right: 20px;
+}
+
+    /*Sección Title*/
+
+.title {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.title__profile {
+    display: block;
+    width: 368px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.title__bio {
+    width: 751px;
+    font-size: 52px;
+}
+
+.title__subsection {
+    width: 751px;
+    font-weight: normal
+}
+
+.title__network li {
+    display: inline;
+    padding: 25px;
+}
+
+    /*Sección About*/
+
+.about {
+    background: #EAF2FD;
+}
+
+.about__container {
+    width: 1136px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container p {
+    width: 751px;
+}
+
+
+    /*Sección Skills y Hobbies*/
+
+.skills__title,
+.hobbies__title {
+    text-align: center;
+    padding: 25px;
+    font-weight: 10px;
+}
+
+.skills__line,
+.hobbies__line {
+    width: 1136px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills__box,
+.hobbies__box {
+    width: 160px;
+    height: 162px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.skills__img,
+.hobbies__img {
+    position: absolute;
+    margin: 70px 0px 120px 0px;
+}
+
+.skills__name,
+.hobbies__name {
+    position: absolute;
+    margin: 110px 0px 90px 0px;
+}
+
+    /* Experiencia Académica*/
+
+.academic {
+    background: #EAF2FD;
+}
+
+.academic__title {
+    text-align: center;
+    padding: 25px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.academic__courses__item__img {
+    width: 368px;
+    height: 286px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+/* experiencia*/
+
+.experience__section__title {
+    text-align: center;
+    padding: 25px;
+}
+
+.experiencie__box {
+    display: block;
+    width: 752px;
+    margin-right: 0;
+}
+
+.experience__title,
+.experience__text {
+    width: 368px;
+    font-weight: normal
+}
+
+.experience__description{
+    width: 186px;
+    height: 74px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+/*Contacto*/
+
+
+
+/*footeer*/
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
